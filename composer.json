@@ -1,0 +1,45 @@
+{
+  "name": "pomeloproductions/laravel-6-api-dates",
+  "description": "Middleware to apply to legacy api route groups that take date output in the Laravel 7+ format, and output them as the legacy format from before Laravel 7.",
+  "keywords": [
+    "php",
+    "laravel",
+    "date format",
+    "middleware"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Cartalyst LLC",
+      "email": "help@cartalyst.com",
+      "homepage": "https://cartalyst.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "illuminate/support": "^6.13"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "PomeloProductions\\Laravel6Middleware\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PomeloProductions\\Laravel6Middleware\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit --verbose --colors=always"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
