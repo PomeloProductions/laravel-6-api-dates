@@ -4,7 +4,6 @@ declare(strict_types=1);
 namespace PomeloProductions\Laravel6Middleware\Tests;
 
 use Illuminate\Http\JsonResponse;
-use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use PHPUnit\Framework\TestCase;
 use PomeloProductions\Laravel6Middleware\Laravel6DateFormatMiddleware;

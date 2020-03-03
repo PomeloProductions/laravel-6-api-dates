@@ -1,6 +1,6 @@
 {
   "name": "pomeloproductions/laravel-6-api-dates",
-  "description": "Middleware to apply to legacy api route groups that take date output in the Laravel 7+ format, and output them as the legacy format from before Laravel 7.",
+  "description": "Middleware to apply to legacy api route groups, which takes date output in the Laravel 7+ format, and outputs them as the legacy format from before Laravel 7.",
   "keywords": [
     "php",
     "laravel",
@@ -17,7 +17,7 @@
   ],
   "require": {
     "php": "^7.2",
-    "illuminate/http": "dev-master",
+    "illuminate/http": "^7.0",
     "nesbot/carbon": "^2.29"
   },
   "require-dev": {
